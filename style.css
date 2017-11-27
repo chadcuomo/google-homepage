@@ -29,6 +29,7 @@ a:hover {
 div.main {
 	margin: 0 auto;
 
+
 }
 
 #icons {
@@ -124,21 +125,27 @@ div.main {
 #logo {
 	height: 233px;
 	margin-top: 89px;
-	padding: 5px;
+	padding: 3px;
 }
 
 input[type=text] {
-	min-width: 580px;
-	-webkit-appearance: initial;
-	padding: 2px
-	border-width: 1px;
+	min-width: 585px;
+	-webkit-appearance: none;
+	padding: 5px;
+	border: 1px;
 	border-style: solid;
-	border-image: initial;
-	border-color: rgb(169, 169, 169);
+	border-color: #f2f2f2;
+	border-radius: 2px;	
 	font: 400 13.3333px Arial;
 	text-transform: none;
+	box-shadow: 0 6px 6px 0 rgba(0,0,0,0.16),
+	0 0 0 1px rgba(0,0,0,0.08);
+	opacity: 2;
 }
 
+input:focus {
+	outline: none;
+}
 
 .button {
 	background-color: #f2f2f2;
@@ -151,7 +158,7 @@ input[type=text] {
 	margin: 11px 4px;
 	height: 30px;
 	min-width: 54px;
-	padding: 0 16px;
+	padding: 5px 16px;
 	text-align:center;
 }
 
